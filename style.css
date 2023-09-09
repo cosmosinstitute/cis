@@ -137,3 +137,13 @@ div.form
     margin-left: 250px;
     margin-right: 250px;
 }
+form{
+    margin-left: 250px;
+    margin-right: 250px;
+    clear: both;
+}
+button{
+    margin-left: 600px;
+    margin-right: 600px;
+    
+}

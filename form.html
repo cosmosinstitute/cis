@@ -8,14 +8,35 @@
 <link rel="stylesheet" href="style.css">i
 <body>
     <h1>
-        ENTER YOUR DATA TO DATABASE
+        ENTER &nbsp; YOUR&nbsp; DATA &nbsp;TO&nbsp; DATABASE
     </h1>
     <div class="form">
         <h2 style="color: black; text-align: center;">
             FORM
         </h2>
         <form action="sd.php">
-            
+            <input type="text" name="myname" id="name">
+            <label for="name"><br>NAME</label>
+            <hr>
+            <input type="number" name="phonenumber" id="phone">
+            <label for="phone"><br>ENTER YOUR PHONE NUMBER</label>
+            <hr>
+            <select name="myclass" id="">
+                <option value="class10">CLASS 10</option>
+                <option value="class11">CLASS 11</option>
+                <option value="class12">CLASS 12</option>
+                <option value="dropperbatchneet"> DROPPER BATCH NEET</option>
+                <option value="dropperbatchjee">DROPPER BATCH JEE</option>
+                
+            </select>
+            <label  for="class" name="class_selection"><br> SELECT YOUR CLASS/BATCH</label>
+            <hr>
+            Gender : <br> male<input type="radio" name="mygender"><br> female<input type="radio" name="mygender"> <br> others<input
+            type="radio" name="mygender">
+            <hr>
+            <input type="text" name="email" id="email-id">
+            <label for="email-id"><br>PLEASE ENTER YOUR EMAIL ID HERE</label>
+
         </form>
     </div>
 </body>
