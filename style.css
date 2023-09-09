@@ -130,3 +130,10 @@ div.third
     padding: 40px;
     margin-top: 30px;
 }
+div.form
+{
+    background-color: white;
+    width: 60%;
+    margin-left: 250px;
+    margin-right: 250px;
+}
