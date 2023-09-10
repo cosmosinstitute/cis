@@ -2,7 +2,7 @@
 $insert = false;
 if(isset($_POST['name'])){
     // Set connection variables
-    $server = "https://github.com/cosmosinstitute/cis/tree/main/login";
+    $server = "https://github.com/cosmosinstitute/cis.git";
     $username = "root";
     $password = "";
 
